@@ -1,5 +1,5 @@
 class Store {
-  constructor(store) {
+  constructor(store = {}) {
     if(!Store.instance) {
       this.store = store;
       Store.instance = this;
